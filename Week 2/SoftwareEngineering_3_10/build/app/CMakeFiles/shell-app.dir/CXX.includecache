@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/courseGrade.h
+vector
+-
+
+/home/akash/Week 2/SoftwareEngineering_3_10/app/courseGrade.cpp
+courseGrade.h
+/home/akash/Week 2/SoftwareEngineering_3_10/app/courseGrade.h
+
+/home/akash/Week 2/SoftwareEngineering_3_10/app/main.cpp
+iostream
+-
+courseGrade.cpp
+/home/akash/Week 2/SoftwareEngineering_3_10/app/courseGrade.cpp
+

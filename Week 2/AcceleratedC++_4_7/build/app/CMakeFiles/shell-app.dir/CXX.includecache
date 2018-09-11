@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/lib.hpp
+iostream
+-
+vector
+-
+
+/home/akash/Week 2/AcceleratedC++_4_5/app/main.cpp
+iostream
+-
+lib.hpp
+-
+
