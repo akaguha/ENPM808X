@@ -1,4 +1,4 @@
-# C++ Boilerplate
+# AcceleratedC++_4_7
 ---
 
 ## Overview
