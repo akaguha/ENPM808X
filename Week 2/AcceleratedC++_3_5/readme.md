@@ -1,6 +1,4 @@
 # AcceleratedC++_3_5
-[![Build Status](https://travis-ci.org/dpiet/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
 ---
 
 ## Overview
@@ -9,7 +7,7 @@ Program to track grades for several students.
 
 ## Standard install via command-line
 ```
-git clone --recursive https://github.com/akaguha/ENPM808X
+git clone --recursive https://github.com/akaguha/ENPM808X.git
 cd ENPM808X/Week\ 2/AcceleratedC++_3_5/
 mkdir build
 cd build
@@ -25,7 +23,7 @@ In your Eclipse workspace directory (or create a new one), checkout the repo (an
 ```
 mkdir -p ~/workspace
 cd ~/workspace
-git clone --recursive https://github.com/akaguha/ENPM808X
+git clone --recursive https://github.com/akaguha/ENPM808X.git
 ```
 
 In your work directory, use cmake to create an Eclipse project for an [out-of-source build] of AcceleratedC++_3_5
