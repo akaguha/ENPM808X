@@ -15,7 +15,7 @@
  *   @brief  Print the string on the terminal window
  *
  *   @param  x is a string to be printed
- *   @return nothing
+ *   @return void
  */
 void concat(std::string x) {
   std::cout << " " << x;

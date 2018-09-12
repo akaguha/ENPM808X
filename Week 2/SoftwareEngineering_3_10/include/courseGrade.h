@@ -14,8 +14,6 @@
 #include <vector>
 
 class courseGrade {
- private:
-  std::vector<double> studGrades;  //< vector to store the student grades
  public:
   // Default constructor
   courseGrade();
@@ -27,6 +25,8 @@ class courseGrade {
   void changeGrade(int loc, double newGrade);
   // prints the list of students and their corresponding GPAs
   void listStudentGrades();
+ private:
+  std::vector<double> studGrades;  //< vector to store the student grades
 
 };
 

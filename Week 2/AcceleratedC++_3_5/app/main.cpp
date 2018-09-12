@@ -1,3 +1,18 @@
+/**
+ *  @file    main.cpp
+ *  @author  Akash Guha (akaguha@terpmail.umd.edu)
+ *  @date    09/10/2018
+ *  @version 1.0
+ *
+ *  @brief ENPM808X, Tracking grades for several students
+ *
+ *  @section DESCRIPTION
+ *
+ *  This program accepts the number of students in a class,
+ *  their first names, midterm, final exam and homework grades,
+ *  followed by final grade computation.
+ *
+ */
 #include <iostream>
 #include <lib.hpp>
 #include <vector>
@@ -6,11 +21,11 @@
 
 int main()
 {
-  std::vector<std::string> name;
-  std::vector<double> finalGrades;
+  std::vector<std::string> name;  ///< vector to store student names
+  std::vector<double> finalGrades;  ///< student final grade
 
   // ask and read number of students
-  int numStudents;
+  int numStudents;  ///< Number of students in the class
   std::cout << "Please enter the number of students: ";
   std::cin >> numStudents;
 
@@ -19,19 +34,19 @@ int main()
     // ask and read student's name
     std::cout << "please enter student's first name: ";
     std::string inputName;
-    std::cin >> inputName;
+    std::cin >> inputName;  ///< student first name
 
-    name.push_back(inputName);  //store the current name to the vector
+    name.push_back(inputName);
 
     // ask and read midterm and final exam grades
     std::cout << "Please enter student's midterm and final exam grades: ";
-    double midterm, final;
+    double midterm, final;  ///< midterm and final grade
     std::cin >> midterm >> final;
 
-    // ask for and read five homework grades
+    // ask and read five homework grades
     std::cout << "Enter your five homework grades" << std::endl;
-    double x;
-    std::vector<double> homework(5);
+    double x;  ///< temporary variable to store homework grades
+    std::vector<double> homework(5);  ///< vector to store homework grades
     for (int i = 0; i < 5; i++) {
       std::cin >> x;
       homework.push_back(x);
@@ -55,11 +70,12 @@ int main()
     finalGrades.push_back(calFinalGrade);
     numStudents--;
   }
+
+  // prints the student names and corresponding final grades
   std::cout << "The final grades are," << std::endl;
   for (std::vector<int>::size_type i = 0; i != name.size(); i++) {
     std::cout << name[i] << " scored: " << finalGrades[i] << std::endl;
   }
 
-  //dummy();
     return 0;
 }
