@@ -8,7 +8,7 @@ Program to return the position of the beginning of a given string in a given tex
 ## Standard install via command-line
 ```
 git clone --recursive https://github.com/akaguha/ENPM808X.git
-cd ENPM808X/Week\ 3/SoftwareEngineering_9_4/
+cd ENPM808X/Week3/SoftwareEngineering_9_4/
 mkdir build
 cd build
 cmake ..
@@ -32,7 +32,7 @@ In your work directory, use cmake to create an Eclipse project for an [out-of-so
 cd ~/workspace
 mkdir -p SoftwareEngineering_9_4
 cd SoftwareEngineering_9_4
-cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug -D CMAKE_ECLIPSE_VERSION=4.7.0 -D CMAKE_CXX_COMPILER_ARG1=-std=c++14 ../ENPM808X/Week\ 3/SoftwareEngineering_9_4/
+cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug -D CMAKE_ECLIPSE_VERSION=4.7.0 -D CMAKE_CXX_COMPILER_ARG1=-std=c++14 ../ENPM808X/Week3/SoftwareEngineering_9_4/
 ```
 
 ## Import
