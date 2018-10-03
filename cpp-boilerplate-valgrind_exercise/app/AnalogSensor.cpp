@@ -1,3 +1,18 @@
+/**
+ *  Copyright 2018 Akash Guha
+ *  @file    AnalogSensor.cpp
+ *  @author  Akash Guha(akaguha@terpmail.umd.edu)
+ *  @date    10/02/2018
+ *  @version 1.0
+ *
+ *  @brief ENPM808X, Valgrind Exercise
+ *
+ *  @section DESCRIPTION
+ *
+ *  This file contains the definations of all the 
+ *  methods of AnalogSensor class
+ *
+ */
 #include <AnalogSensor.hpp>
 #include <numeric>
 #include <vector>

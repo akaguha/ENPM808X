@@ -1,3 +1,17 @@
+/**
+ *  Copyright 2018 Akash Guha
+ *  @file    main.cpp
+ *  @author  Akash Guha(akaguha@terpmail.umd.edu)
+ *  @date    10/02/2018
+ *  @version 1.0
+ *
+ *  @brief ENPM808X, Valgrind Exercise
+ *
+ *  @section DESCRIPTION
+ *
+ *  Main function of AnalogSensor program
+ *
+ */
 #include <iostream>
 #include <AnalogSensor.hpp>
 
